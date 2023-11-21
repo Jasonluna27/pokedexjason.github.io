@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Comparador de Pokémon</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="../img/pokemon-23.svg" alt="Logo" class="logo">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tabla.html">Tabla de Tipos</a></li>
+                <li><a href="buscar.html">Buscar</a></li>
+                <li><a href="comparar.html">Comparar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="comparison-panel">
+        <label for="pokemon1Name">Pokémon 1:</label>
+        <input type="text" id="pokemon1Name" placeholder="Nombre del Pokémon 1" value="bulbasaur">
+
+        <br>
+
+        <label for="pokemon2Name">Pokémon 2:</label>
+        <input type="text" id="pokemon2Name" placeholder="Nombre del Pokémon 2" value="charmander">
+
+        <br>
+
+        <button onclick="comparePokemon()">Comparar Pokémon</button>
+    </div>
+
+    <div id="result" class="result-container"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="../js/comparar.js"></script>
+</body>
+</html>

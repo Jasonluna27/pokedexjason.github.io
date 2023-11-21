@@ -1,0 +1,13 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción: }{2}{}%
+\contentsline {section}{\numberline {2}Objetivos: }{2}{}%
+\contentsline {section}{\numberline {3}Alcances:}{2}{}%
+\contentsline {section}{\numberline {4}Justificación: }{3}{}%
+\contentsline {section}{\numberline {5}Marco Teórico: }{3}{}%
+\contentsline {subsection}{\numberline {5.1}Antecedentes:}{3}{}%
+\contentsline {subsection}{\numberline {5.2}Problema:}{3}{}%
+\contentsline {subsection}{\numberline {5.3}Requisitos del proyecto: }{3}{}%
+\contentsline {subsection}{\numberline {5.4}Estructura del proyecto: }{4}{}%
+\contentsline {subsection}{\numberline {5.5}Metodología de desarrollo: }{4}{}%
+\contentsline {subsection}{\numberline {5.6}Tecnologías: }{4}{}%
+\contentsline {subsection}{\numberline {5.7}title}{4}{}%

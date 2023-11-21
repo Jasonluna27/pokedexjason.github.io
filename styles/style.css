@@ -1,0 +1,244 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: yellow;
+    text-align: center;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+    font-size: 1.2em;
+}
+
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 60px);
+    margin: 2rem; 
+    background-color: #E8E8E8;
+}
+
+
+#search-panel {
+    background-color: #FFD700;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 60px;
+    z-index: 999;
+    margin-bottom: 50px;
+    width: 90%; 
+    left: 5%; 
+}
+
+#search-panel button {
+    background-color: #FFA500;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 200px; 
+    height: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.card h2 {
+    margin: 10px 0;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+
+#result {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    align-items: flex-start;
+}
+
+
+.result-container {
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+#result p {
+    margin-top: 8px; 
+    font-size: 18px;
+    font-weight: bold;
+}
+#comparison-panel{
+    background-color: #FFD700; 
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 60px; 
+    z-index: 999;
+    margin-bottom: 50px;
+}
+
+
+#comparison-panel button {
+    background-color: #FFA500; 
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+#comparison-panel button:hover {
+    background-color: #FF8C00; 
+}
+#pokemon-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#card-container {
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    justify-content: center;
+    align-content: flex-start; 
+}
+
+.card {
+    width: 10rem;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.card h2 {
+    margin: 10px 0;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.card .types {
+    display: flex;
+    justify-content: center;
+}
+
+/* Colores de fondo para tipos de Pokémon */
+.card.normal { background-color: #b8aaaa; }
+.card.fire { background-color: #FF5733; }
+.card.water { background-color: #4E90D5; }
+.card.grass{ background-color: #3BB805;}
+.card.bug{ background-color: #7df64a;}
+.card.poison{ background-color: #aa03d4;}
+.card.dragon{background-color:#4d025f;}
+.card.electric{background-color: #FFD700;}
+.card.fighting{background-color: #d56204;}
+.card.rock{background-color: #393232;}
+.card.ground{background-color: #d58c32}
+.card.ghost{background-color: #7a0398}
+.card.psychic{background-color: rgb(255, 20, 147);}
+.card.ice{background-color: #3693f7}
+.card.fairy{background-color: #d87093}
+.card.steel{background-color: #808080;}
+.card.dark{background-color: rgb(26, 33, 33);}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 5px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.type {
+    font-weight: bold;
+}
+
+.strengths, .weaknesses {
+    font-style: italic;
+}

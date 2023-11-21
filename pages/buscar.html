@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Buscar Pokémon</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="../img/pokemon-23.svg" alt="Logo" class="logo">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tabla.html">Tabla de Tipos</a></li>
+                <li><a href="buscar.html">Buscar</a></li>
+                <li><a href="comparar.html">Comparar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Agregamos un panel de búsqueda -->
+    <div id="search-panel">
+        <label for="pokemon-name">Nombre:</label>
+        <input type="text" id="pokemon-name">
+
+        <label for="pokemon-type">Tipo:</label>
+        <input type="text" id="pokemon-type">
+
+        <label for="pokemon-generation">Generación:</label>
+        <select id="pokemon-generation">
+            <option value="none">Ninguna</option>
+            <option value="1">Generación 1</option>
+            <option value="2">Generación 2</option>
+            <option value="3">Generación 3</option>
+            <option value="4">Generación 4</option>
+            <option value="5">Generación 5</option>
+            <option value="6">Generación 6</option>
+            <option value="7">Generación 7</option>
+            <option value="8">Megas y Especiales</option>
+            <option value="9">Megas y Especiales</option>
+            <!-- Agrega más opciones según sea necesario -->
+        </select>
+
+        <button onclick="performSearch()">Buscar</button>
+    </div>
+
+    <div id="card-container"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/buscar.js"></script>
+</body>
+</html>
